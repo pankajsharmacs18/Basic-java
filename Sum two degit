@@ -1,0 +1,18 @@
+package input;
+/* file must be save with Input name
+import java.util.Scanner;
+
+public class Input {
+    public void sum(int a, int b){
+        int sum = a+b;
+        System.out.println(sum);
+    }
+    public static void main(String args[]){
+        Scanner input = new Scanner(System.in);
+        Input obj= new Input();
+        System.out.println("enter value of a and b");
+        int a =input.nextInt();
+        int b = input.nextInt();
+        obj.sum(a,b);
+    }
+}
