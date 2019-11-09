@@ -1,0 +1,26 @@
+package factorialNo;
+/* file must bhe save with the Factorial NO name
+import java.util.Scanner;
+
+public class FactorialNO {
+    public void factorial(int range){
+        System.out.println("Factorial list is 1 to "+range);
+        for (int i = 1; i <range ; i++) {
+            int fact =1;
+            for (int j = 1; j <= i ; j++) {
+                fact=fact*j;
+            }
+            System.out.println(+i +"factorial = "+fact);
+
+        }
+    }
+    public static void main(String args[]){
+        Scanner input = new Scanner(System.in);
+        FactorialNO obj= new FactorialNO();
+        System.out.println("Enter range");
+        int range =input.nextInt();
+        obj.factorial(range);
+
+    }
+
+}
