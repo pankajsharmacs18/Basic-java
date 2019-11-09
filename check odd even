@@ -1,0 +1,25 @@
+package oddEven;
+/*pankaj sharma 
+import java.util.Scanner;
+
+public class OddEven {
+    public void checkOddEven(int a)
+    {
+        if (a%2==0){
+            System.out.println("no is " +a +"is Even");
+        }
+        else{
+            System.out.println("NO si "+a+ " is Odd");
+        }
+    }
+    public static void main(String args[]){
+        Scanner input = new Scanner(System.in);
+        OddEven obj= new OddEven();
+        System.out.println("enter a number ");
+        int a = input.nextInt();
+        obj.checkOddEven(a);
+
+
+
+    }
+}
