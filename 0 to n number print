@@ -1,0 +1,24 @@
+package oneTOn;
+/* file must be save with the ONEtoN name
+import javax.script.ScriptContext;
+import java.util.Scanner;
+
+public class ONEtoN {
+    public void oneTOn(int range){
+        int i=0;
+        while (i<=range){
+            System.out.println(i);
+            i++;
+        }
+
+    }
+    public static void main(String args[]){
+
+        Scanner input = new Scanner(System.in);
+        ONEtoN obj= new ONEtoN();
+        System.out.println("Enter range id sereis ");
+        int range = input.nextInt();
+        obj.oneTOn(range);
+    }
+
+}
