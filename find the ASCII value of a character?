@@ -1,0 +1,12 @@
+class PankajAscii
+{
+public static void main(String[] args)
+{
+System.out.print("Divide the two number");
+  char ch='P';
+  int asciiCode = ch;
+  int assciiValue = (int)ch;
+System.out.print("ASCII value of "+ch+"is  :"+asciiCode);
+System.out.print("ASCII value of "+ch+"is :" +assciiValue);
+}
+}
